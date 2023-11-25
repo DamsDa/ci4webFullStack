@@ -1,0 +1,98 @@
+ERROR - 2023-10-31 11:20:54 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\damar\OneDrive\Desktop\webgue\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\damar\OneDrive\Desktop\webgue\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\Users\damar\OneDrive\Desktop\webgue\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\damar\OneDrive\Desktop\webgue\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\damar\OneDrive\Desktop\webgue\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\damar\OneDrive\Desktop\webgue\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\damar\OneDrive\Desktop\webgue\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\damar\OneDrive\Desktop\webgue\app\Models\KomikModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\damar\OneDrive\Desktop\webgue\app\Controllers\Komik.php(26): App\Models\KomikModel->getKomik()
+#8 C:\Users\damar\OneDrive\Desktop\webgue\system\CodeIgniter.php(942): App\Controllers\Komik->index()
+#9 C:\Users\damar\OneDrive\Desktop\webgue\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#10 C:\Users\damar\OneDrive\Desktop\webgue\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\damar\OneDrive\Desktop\webgue\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\damar\OneDrive\Desktop\webgue\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\damar\OneDrive\Desktop\webgue\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\damar\OneDrive\Desktop\webgue\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\damar\OneDrive\Desktop\webgue\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\damar\OneDrive\Desktop\webgue\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\damar\OneDrive\Desktop\webgue\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\damar\OneDrive\Desktop\webgue\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\damar\OneDrive\Desktop\webgue\app\Models\KomikModel.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\damar\OneDrive\Desktop\webgue\app\Controllers\Komik.php(26): App\Models\KomikModel->getKomik()
+#7 C:\Users\damar\OneDrive\Desktop\webgue\system\CodeIgniter.php(942): App\Controllers\Komik->index()
+#8 C:\Users\damar\OneDrive\Desktop\webgue\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#9 C:\Users\damar\OneDrive\Desktop\webgue\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\damar\OneDrive\Desktop\webgue\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\damar\OneDrive\Desktop\webgue\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\...')
+#12 {main}
+CRITICAL - 2023-10-31 11:20:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `komik`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KomikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Komik.php(26): App\Models\KomikModel->getKomik()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Komik->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-31 11:28:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 11.
+ 1 APPPATH\Views\komik\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(39): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-31 11:30:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 11.
+ 1 APPPATH\Views\komik\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(39): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Komik->detail('create')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-31 11:48:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 11.
+ 1 APPPATH\Views\komik\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(39): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Komik->detail('save')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-31 11:49:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\komik\detail.php on line 11.
+ 1 APPPATH\Views\komik\detail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(39): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Komik->detail('save')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-10-31 12:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 12:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-31 12:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

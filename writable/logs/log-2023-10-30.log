@@ -1,0 +1,12 @@
+CRITICAL - 2023-10-30 11:29:42 --> Undefined variable $extend
+in APPPATH\Views\komik\detail.php on line 1.
+ 1 APPPATH\Views\komik\detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $extend', 'C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\komik\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('komik/detail', [], true)
+ 5 APPPATH\Controllers\Komik.php(39): view('komik/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Komik->detail('naruto')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')

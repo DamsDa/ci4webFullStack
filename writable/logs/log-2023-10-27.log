@@ -1,0 +1,73 @@
+CRITICAL - 2023-10-27 11:03:49 --> Too few arguments to function App\Controllers\Pages::about(), 0 passed in C:\Users\damar\OneDrive\Desktop\webgue\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Pages.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->about()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-27 11:09:22 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\Pages.php on line 14.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('pages/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('pages/')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('pages/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-27 11:09:25 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\Pages.php on line 14.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('pages', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('pages')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('pages')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-27 11:11:26 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 10.
+ 1 APPPATH\Views\layouts\header.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\layouts\\header.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(14): view('layouts/header')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-27 11:11:51 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 10.
+ 1 APPPATH\Views\layouts\header.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\layouts\\header.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(14): view('layouts/header')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-27 11:11:52 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 10.
+ 1 APPPATH\Views\layouts\header.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\layouts\\header.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(14): view('layouts/header')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-10-27 11:21:00 --> Undefined variable $title
+in APPPATH\Views\layouts\header.php on line 10.
+ 1 APPPATH\Views\layouts\header.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\layouts\\header.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(20): view('layouts/header')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->about()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')

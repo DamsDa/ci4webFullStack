@@ -1,0 +1,10 @@
+CRITICAL - 2023-10-28 11:10:44 --> Invalid file: "layouts/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/header.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/header', [], true)
+ 3 APPPATH\Controllers\Pages.php(23): view('layouts/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->about()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
