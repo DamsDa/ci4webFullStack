@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->setAutoRoute(true);
 
-$routes->get('/', 'Pages::index');
+$routes->get('/', 'Home::index');
 $routes->get('/komik/create', 'Komik::create');
 $routes->get('/orang/create', 'Orang::create');
 $routes->get('/komik/edit/(:segment)', 'Komik::edit/$1');
