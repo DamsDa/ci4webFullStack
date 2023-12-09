@@ -3,3 +3,327 @@ INFO - 2023-12-09 11:27:37 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-12-09 11:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-12-09 11:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-12-09 11:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 11:50:11 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 11:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 11:50:18 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:52:13 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:52:15 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:52:21 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:52:22 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:52:23 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:52:29 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:53:08 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:53:14 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:53:45 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:54:18 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 11:54:19 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 11:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 11:54:27 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 11:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 11:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 12:08:37 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 12:09:29 --> syntax error, unexpected token "}", expecting ";"
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\vendor\\composer/../myth/auth/src/Filters/RoleFilter.php')
+ 2 SYSTEMPATH\Filters\Filters.php(177): CodeIgniter\Autoloader\Autoloader->loadClassmap('Myth\\Auth\\Filters\\RoleFilter')
+ 3 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 12:09:32 --> syntax error, unexpected token "}", expecting ";"
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\vendor\\composer/../myth/auth/src/Filters/RoleFilter.php')
+ 2 SYSTEMPATH\Filters\Filters.php(177): CodeIgniter\Autoloader\Autoloader->loadClassmap('Myth\\Auth\\Filters\\RoleFilter')
+ 3 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 12:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 12:10:51 --> syntax error, unexpected identifier "user", expecting ")"
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\vendor\\composer/../myth/auth/src/Filters/RoleFilter.php')
+ 2 SYSTEMPATH\Filters\Filters.php(177): CodeIgniter\Autoloader\Autoloader->loadClassmap('Myth\\Auth\\Filters\\RoleFilter')
+ 3 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 12:11:08 --> syntax error, unexpected single-quoted string "); ?>", expecting ")"
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\vendor\\composer/../myth/auth/src/Filters/RoleFilter.php')
+ 2 SYSTEMPATH\Filters\Filters.php(177): CodeIgniter\Autoloader\Autoloader->loadClassmap('Myth\\Auth\\Filters\\RoleFilter')
+ 3 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 12:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 12:11:16 --> syntax error, unexpected single-quoted string "); ?>", expecting ")"
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\vendor\\composer/../myth/auth/src/Filters/RoleFilter.php')
+ 2 SYSTEMPATH\Filters\Filters.php(177): CodeIgniter\Autoloader\Autoloader->loadClassmap('Myth\\Auth\\Filters\\RoleFilter')
+ 3 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+CRITICAL - 2023-12-09 12:11:47 --> syntax error, unexpected token "<"
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\vendor\\composer/../myth/auth/src/Filters/RoleFilter.php')
+ 2 SYSTEMPATH\Filters\Filters.php(177): CodeIgniter\Autoloader\Autoloader->loadClassmap('Myth\\Auth\\Filters\\RoleFilter')
+ 3 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 12:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 12:12:27 --> syntax error, unexpected token "<"
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\vendor\\composer/../myth/auth/src/Filters/RoleFilter.php')
+ 2 SYSTEMPATH\Filters\Filters.php(177): CodeIgniter\Autoloader\Autoloader->loadClassmap('Myth\\Auth\\Filters\\RoleFilter')
+ 3 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 12:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 12:13:29 --> Unsupported operand types: string / string
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 46.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 12:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 12:13:42 --> Unsupported operand types: string / string
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 46.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 12:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 12:13:46 --> Unsupported operand types: string / string
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 46.
+ 1 SYSTEMPATH\Filters\Filters.php(184): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\damar\\OneDrive\\Desktop\\webgue\\public\\index.php')
+INFO - 2023-12-09 12:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 12:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
