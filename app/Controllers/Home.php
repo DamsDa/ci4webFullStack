@@ -1,20 +1,24 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\KomikModel;
 
 class Home extends BaseController
 {
-    public function index(): string
+    protected $komikModel;
+
+    public function __construct()
     {
-        return view('auth/login');
+        $this->komikModel = new KomikModel();
     }
-    
-    public function register(): string
+
+    public function index()
     {
-        return view('auth/register');
-    }
-    public function user(): string
-    {
-        return view('user/index');
+        $data = [
+            'title' => 'Daftar Komik | Laito',
+            'komik' => $this->komikModel->getKomik()
+        ];
+
+        return view('pages/home', $data);
     }
 }

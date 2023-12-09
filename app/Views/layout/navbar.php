@@ -21,12 +21,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/orang">Member</a>
                 </li>
+                <?php if(logged_in()): ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="/user">My Profile</a>
+                </li>
+                <?php else: ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+                <?php endif; ?>
             </ul>
-            <?php if(logged_in()): ?>
-                <a class="nav-link" href="/logout">Logout</a>
-            <?php else: ?>
-                <a class="nav-link" href="/login">Login</a>
-            <?php endif; ?>
         </div>
     </div>
 </nav>
